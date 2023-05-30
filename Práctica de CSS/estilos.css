@@ -1,4 +1,59 @@
 * {
     margin: 0 auto;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img1 img{
+    width: 200px;
+}
+
+.botones{
+    display: inline;
+}
+
+#acceder{
+    width: 85px;
+    color: gray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#registro{
+    width: 85px;
+    background-color: rgb(255, 208, 0);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+
+#texto{
+    color: white;
+    background-color: black;
+    border-top: 1px solid black;
+}
+
+#img2{
+    height: 200px;
+    width: 400px;
+    max-width: 1920;
+}
+
+.info{
+    margin: 0 auto;
+    display: block;
+}
+
+.peliculas{
+    width: 300px;
+}
+
+.actores{
+    width: 300px;
+}
+
+.directores{
+    width: 300px;
 }
