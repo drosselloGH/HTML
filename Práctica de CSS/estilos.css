@@ -4,8 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#img1 img{
+.img1 {
     width: 200px;
+    float: left;
 }
 
 .botones{
@@ -36,24 +37,22 @@
 }
 
 #img2{
-    height: 200px;
-    width: 400px;
-    max-width: 1920;
+    height: 53vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedor-info {
+    width: 1140px;
+    padding-bottom: 50px;
+    margin: 20px auto;
+    background-color: green;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    display: flex;
 }
 
 .info{
-    margin: 0 auto;
-    display: block;
+    /* hace que los elementos estén en línea */
+    width: 25%;
 }
 
-.peliculas{
-    width: 300px;
-}
-
-.actores{
-    width: 300px;
-}
-
-.directores{
-    width: 300px;
-}
