@@ -4,13 +4,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.superior{
+    width: 90%;
+    margin-bottom: ;
+}
+
 .img1 {
     width: 200px;
     float: left;
 }
 
+ul{
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+li:hover{
+    color: black;
+}
+
 .botones{
     display: inline;
+    position: absolute;
+    right: 50px;
 }
 
 #acceder{
@@ -32,12 +51,27 @@
 
 #texto{
     color: white;
-    background-color: black;
-    border-top: 1px solid black;
+    width: 650px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 230px;
+    top: 170px;
+}
+
+#texto h1{
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+
+#texto p{
+    padding-right: 100px;
 }
 
 #img2{
-    height: 53vh;
+    height: 56vh;
     width: 100%;
     object-fit: cover;
 }
